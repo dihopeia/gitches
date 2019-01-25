@@ -9,3 +9,8 @@ body {
     border-radius: 25px;
 
 }
+
+hr {
+    align-content: center;
+    width: 90%
+}
