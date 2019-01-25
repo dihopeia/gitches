@@ -1,0 +1,18 @@
+nav {
+    background-color: khaki;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
