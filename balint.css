@@ -43,17 +43,9 @@ body{
       border-radius: 10px;
       filter: grayscale(100%); 
   }
-  
-  li {
-    margin-bottom: 20px;
-  }
-  
-  #li-with-no-margin{
-    margin-bottom: 0px;
-  }
-  #tribute-info{
-    margin: auto;
-    width:700px;
-    padding: 50px;
-    
+
+  .storytelling {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
   }
