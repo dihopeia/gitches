@@ -1,5 +1,7 @@
 body{
-    background-image: url("https://static.kidspot.com.au/cm_assets/216101/gordon-ramsay-pineapple-pizza-lead-20170413150550.jpg~q75,dx720y432u1r1gg,c--.jpg");
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("./img/hg/content_bg.png");
     background-size: 100%;
 }
 
@@ -10,11 +12,15 @@ body{
 
 #content{
 margin:auto;
+margin-bottom:80px;
 width: 80%;
-background-color:green;
+background-color: rgb(216, 213, 114);
 padding:20px 20px 20px 20px;
 opacity: 0.8;
 min-height: 530px;
+border: 1px solid black;
+box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.8);
+border-radius: 0 0 30px 30px;
 }
 
 nav {
@@ -23,28 +29,42 @@ nav {
     height:150px;
     background-image: url("./img/hg/woodmenu.jpg");
     text-align: center;
+    border: 2px solid black;
+    border-radius: 0 0 25px 25px;
     
 }
 
 nav ul{
+    margin-top:50px;
     list-style: none;    
 }
 
 nav ul li{
-    padding: 18px;
-    background-color:blueviolet;
+    padding: 30px 50px 15px 50px;
+    background-image: url("./img/hg/link_bg.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
     display: inline;
-    border: 1px 1px 1px 1px;
     border-radius: 40% 15%;
     
 }
 
+nav ul li a:hover{
+    opacity: 1;
+}
+
+
+
 nav ul li a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20pt;
+    
+    margin: auto;
+    font-family: 'Lobster', cursive;
+    font-size: 26pt;
     color:white;
+    text-shadow: 5px 5px 7px #000000;
     text-decoration: none;
-    padding: 5px 15px 5px;
+    opacity: 0.7;
     
 
 }
