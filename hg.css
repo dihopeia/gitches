@@ -1,0 +1,122 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("./img/hg/content_bg.png");
+    background-size: 100%;
+}
+
+#container{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#content{
+margin:auto;
+margin-bottom:80px;
+width: 80%;
+background-color: rgb(216, 213, 114);
+padding:20px 20px 20px 20px;
+opacity: 0.8;
+min-height: 530px;
+border: 1px solid black;
+box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.8);
+border-radius: 0 0 30px 30px;
+}
+
+nav {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height:150px;
+    background-image: url("./img/hg/woodmenu.jpg");
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0 0 25px 25px;
+    
+}
+
+nav ul{
+    margin-top:50px;
+    list-style: none;    
+}
+
+nav ul li{
+    padding: 30px 50px 15px 50px;
+    background-image: url("./img/hg/link_bg.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    display: inline;
+    border-radius: 40% 15%;
+    
+}
+
+nav ul li a:hover{
+    opacity: 1;
+}
+
+
+
+nav ul li a{
+    
+    margin: auto;
+    font-family: 'Lobster', cursive;
+    font-size: 26pt;
+    color:white;
+    text-shadow: 5px 5px 7px #000000;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#box{
+    padding: auto;
+    margin: auto;
+    background-color:gray;
+    height:auto;
+    overflow:auto;
+    margin-bottom:20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+#boxtitle{
+    background-color: cadetblue;
+    padding: 0 5px 0 5px;   
+}
+
+p{
+    clear: both;
+    padding: 0 8px 10px 8px;
+    float:right;
+    font-size: 16pt;
+}
+
+h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 28pt;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size:20pt;
+    color: rgb(153, 51, 0);
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    padding-left:10px;
+    font-size: 18pt;
+}
+
+img{
+    margin:0 10px 10px 10px;
+    opacity: inherit;
+    
+}
+
+
+
+#content-pic{
+    border-radius: 20px 20px 20px 20px;
+    width:26%;
+}
